@@ -24,7 +24,7 @@ function App() {
       })
       .fromTo(".logo p span", {
         opacity: 0,
-        translateY: 100,
+        translateY: 50,
       },
         {
           opacity: 1,
