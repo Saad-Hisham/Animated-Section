@@ -41,12 +41,14 @@ function App() {
         x: 600,
       }, {
         x: 0,
+         ease: "expoScale(0.5,7,none)",
         duration: 2,
       }, "-=2")
       .fromTo(".lady-mobile-image-container", {
         x: 600,
       }, {
         x: 0,
+        ease: "expoScale(0.5,7,none)",
         duration: 2,
       }, "-=2")
       .fromTo(
